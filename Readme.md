@@ -1,1 +1,2 @@
 This React Tutorial Will Contains All The Project as well as all the learning which I am going to do within React JS course of Udemy. This will be the complete Notes and Complete Repository and Packed Course.
+This Course Will contain all the things which does not even need a prior knowledge of anything. We will first Start with JavaScript and then we will slowly go day by day learning and we will learn.
