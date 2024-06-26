@@ -13,7 +13,7 @@
 ## Practically adding.
 ### One Thing To Remember: defer tag.
 ```
-<head>` 
+<head>
    <script src="assets/script/app.js" defer></script>
 </head>
 ```
