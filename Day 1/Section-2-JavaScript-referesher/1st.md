@@ -29,3 +29,5 @@
 It usually defines the type of the script.
 This module type will be treating the Javascript file as a module. We can import code from one JS file to another.
 ```
+
+### React Project Uses A Build Process.
