@@ -2,7 +2,7 @@
 
 ### There are particularly three to four ways to include something from one file to another.
 
-## Way 1: Normal way.
+#### Way 1: Normal way.
 ```
 util.js file.
 
