@@ -32,3 +32,25 @@ Recommended: userName, isCorrect, loadData..
 UnCommon: userDataPoint, correctNess, dataLoader...
 ```
 
+### Difference between Let and Const.
+1. Var is globally scoped while let and const are blocked scoped.
+2. Var can be update and re declared within its scope.
+3. Let can be updated but not re declared.
+4. Const can neither be updated nor be re declared.
+5. Var variables are initialized with undefined whereas let and const variables are not initialized.
+6. Const must be initialized during declaration unlike let and var.
+
+```
+var myVariable;
+console.log(myVariable);
+output: Undefined.
+
+let myLetVariable;
+console.log(myLetVariable);
+output: Undefined.
+
+const myConstVariable;
+console.log(myConstVariable);
+Output: Error.
+```
+
