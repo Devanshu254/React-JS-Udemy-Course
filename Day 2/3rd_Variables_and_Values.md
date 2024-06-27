@@ -6,27 +6,27 @@
 **Null**: Explicitly assigned by developer (reset value).
 
 ## Identifiers must follow certain rules and recommendations.
-1. Must contain whitespace or special characters (except $ and _). <br>
+**1. Must contain whitespace or special characters (except $ and _).** <br>
 ```
 Valid: $UserName, age, user_name, data$,...
 Invalid: %UserName, age/, user name...
 ``` 
-2. May Contain Numbers but must not start with a number.
+**2. May Contain Numbers but must not start with a number.**
 ```
 Valid: user3, us3r...
 Invalid: 3user, 11player...
 ```
-3. Must not clash with reserved keywords.
+**3. Must not clash with reserved keywords.**
 ```
 Valid: user, data, age....
 Invalid: let, const, if...
 ```
-4. Should use CamelCasing.
+**4. Should use CamelCasing.**
 ```
 Recommended: userName, isCorrect,...
 Uncommon: user_name, iscorrect..
 ```
-5. Should Describe What the "thing" it identifies contains or does.
+**5. Should Describe What the "thing" it identifies contains or does.**
 ```
 Recommended: userName, isCorrect, loadData..
 UnCommon: userDataPoint, correctNess, dataLoader...
