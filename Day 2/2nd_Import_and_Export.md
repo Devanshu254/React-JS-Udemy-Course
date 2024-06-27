@@ -1,6 +1,6 @@
 # Import and Export within JavaScript and React.
 
-## There are particularly three ways to include something from one file to another.
+### There are particularly three to four ways to include something from one file to another.
 
 ## Way 1: Normal way.
 ```
