@@ -2,7 +2,7 @@
 
 ### There are particularly three to four ways to include something from one file to another.
 
-#### Way 1: Normal way.
+### Way 1: Normal way.
 ```
 util.js file.
 
@@ -23,7 +23,7 @@ Note: To work with the import and export keywords within JavaScript we must have
 </head>
 ```
 
-## Way 2: Using Default Keyword.
+### Way 2: Using Default Keyword.
 
 ```
 util.js file.
@@ -41,7 +41,7 @@ In react we have components so In one file we have one component so we export th
 You can "export default" a function or variable that was created before but you can not "export default let.." in one single line.
 ```
 
-## Way 3: As a JavaScript object.
+### Way 3: As a JavaScript object.
 
 ```
 util.js file.
@@ -60,7 +60,7 @@ console.log(util.abc);
 console.log(util.acb); // like this.
 ```
 
-## Way 4: Using alias, Extension of way 3.
+### Way 4: Using alias, Extension of way 3.
 ```
 import {apiKey, abc as content} from './util.js';
 console.log(content.abc);
