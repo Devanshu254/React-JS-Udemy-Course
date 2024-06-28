@@ -20,6 +20,7 @@ const index = hobbies.findIndex((item) => {
 });
 console.log(index);
 ```
+## Map Method.
 > Map method: Map allows us to transform every item in an array to another item. It takes an arrow function as an argument. It will receive every item array in the input as findIndex method. Map will not edit the orignal array instead that array. Map will return a new array. 
 ```
 const editedHobbies = hobbies.map((items) => items + "!");
