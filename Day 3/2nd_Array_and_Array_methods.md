@@ -30,4 +30,4 @@ console.log(editedHobbies); // Output will give an object.
 const editedHobbies = hobbies.map((items) => ({text: item}));
 Output:
 ```
-<img src="G:\Desktop\React JS Udemy Course\Day 3\Screenshot 2024-06-28 170146.png" alt="image" width="300" height="auto">
+![Alt text](Day 3\Screenshot 2024-06-28 170146.png)
