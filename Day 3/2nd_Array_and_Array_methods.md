@@ -33,4 +33,4 @@ console.log(editedHobbies); // Output will give an object.
 const editedHobbies = hobbies.map((items) => ({text: item}));
 Output:
 ```
-<img src="Screenshot 2024-06-28 170146.png" alt="alt text" width="200" height="200">
+<img src="./images/Screenshot 2024-06-28 170146.png" alt="alt text" width="200" height="200">
