@@ -5,7 +5,7 @@
 const userName = "Max";
 const userAge = 34;
 ```
-## We can group these within an object.
+### We can group these within an object.
 ```
 const user = {
     name: 'Max',
@@ -15,8 +15,8 @@ console.log(user); // Whole objecte will get outputed.
 console.log(user.name);
 console.log(user.age);
 ```
-We can also Define functions within our Object which we call as methods.
-Example 1:
+### We can also Define functions within our Object which we call as methods.
+### Example 1:
 ```
 const user = {
     name: 'Max',
@@ -29,7 +29,7 @@ const user = {
 console.log(user.name);
 user.greet();
 ```
-Or We can create blueprint by creating class keywords.
+### Or We can create blueprint by creating class keywords.
 ```
 class User {
     constructor(name, age) {
