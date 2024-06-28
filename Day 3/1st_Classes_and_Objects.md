@@ -1,6 +1,6 @@
 # Classes and Objects.
 
-Suppose we have two values.
+### Suppose we have two values.
 ```
 const userName = "Max";
 const userAge = 34;
