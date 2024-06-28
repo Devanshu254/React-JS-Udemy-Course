@@ -23,4 +23,11 @@ console.log(index);
 > Map method: Map allows us to transform every item in an array to another item. It takes an arrow function as an argument. It will receive every item array in the input as findIndex method. Map will not edit the orignal array instead that array. Map will return a new array. 
 ```
 const editedHobbies = hobbies.map((items) => items + "!");
+console.log(editedHobbies); // Output will give an object. 
+
+// Instead of converting strings into strings we can also convert them to javascript objects. 
+
+const editedHobbies = hobbies.map((items) => ({text: item}));
+Output:
 ```
+<img src="G:\Desktop\React JS Udemy Course\Day 3\Screenshot 2024-06-28 170146.png" alt="image" width="300" height="auto">
