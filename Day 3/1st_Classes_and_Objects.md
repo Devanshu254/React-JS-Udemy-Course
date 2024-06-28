@@ -5,7 +5,7 @@
 const userName = "Max";
 const userAge = 34;
 ```
-We can group these within an object.
+## We can group these within an object.
 ```
 const user = {
     name: 'Max',
