@@ -4,12 +4,14 @@ const hobbies = ["Sports", "Cooking", "Reading"];
 console.log(hobbies[0]);
 Output: Sports
 ```
-> Push method.
+## Push Method.
+> Push method: At last index it will push the array element.
 ```
 hobbies.push("Working");
 console.log(hobbies); // 4 Elements will be outputted.
 ```
-> findIndex method.
+## FindIndex method.
+> findIndex method: Will take each element as an input and then work upon it.
 ```
 hobbies.findIndex((item) => {
     return item === 'Sports';
