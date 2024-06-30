@@ -14,5 +14,5 @@ const hobbies = ["Sports", "Cooking"];
 hobbies.push("Working");
 console.log(hobbies);
 ```
-![alt text](images/Reference.png)
+<img src="./images/Reference.png" alt="alt text" width="350" height="200">
 
