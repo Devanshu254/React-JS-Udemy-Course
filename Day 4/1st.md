@@ -25,5 +25,12 @@ const extendedUser = {
     ...user
 }
 console.log(extendedUser);
+
 Output: An object which contains all the key value pair of user as well as extendedUser object.
+{
+    name: "Max",
+    age: 34,
+    isAdmin: true
+}
+
 ```
