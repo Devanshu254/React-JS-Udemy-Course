@@ -18,3 +18,6 @@ console.log(hobbies);
 
 ### Filter Function JavaScript.
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+### Link to Code Sand Box.
+> https://codesandbox.io/s/javascript-refresher-j56djd
