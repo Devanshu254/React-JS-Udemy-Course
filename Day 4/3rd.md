@@ -14,5 +14,7 @@ const hobbies = ["Sports", "Cooking"];
 hobbies.push("Working");
 console.log(hobbies);
 ```
-<img src="./images/Reference.png" alt="alt text" width="350" height="200">
+![alt text](images/Reference.png)
 
+### Filter Function JavaScript.
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
