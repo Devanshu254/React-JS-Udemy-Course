@@ -26,3 +26,17 @@ function greeter(greetFn) {
 greeter(()=>{console.log("Hi")}); // This function which is an arrow function here is passed as a value to greetFn and then greetFn is executed here.
 ```
 <img src="./images/Screenshot 2024-06-30 130118.png" alt="alt text" width="400" height="200">
+
+# Defining functions within functions.
+### Important topic in context of React.
+> We can define greet within the function but not outside the function.
+```
+function init() {
+    const message = "...";
+    function greet() {
+        console.log("Hi");
+    }
+    greet();
+}
+init(); 
+```
