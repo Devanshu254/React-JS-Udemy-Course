@@ -56,3 +56,10 @@ Output:
 Sports
 Cooking.
 ```
+# Dom Manipulation.
+> We will not use DOM manipulation mostly because we will use react. In react Dom's are not used. 
+```
+// Below is something which we are not going to do mostly.
+const list = document.querySelector("ul");
+list.remove();
+```
