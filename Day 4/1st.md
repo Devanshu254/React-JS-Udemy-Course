@@ -32,5 +32,27 @@ Output: An object which contains all the key value pair of user as well as exten
     age: 34,
     isAdmin: true
 }
-
+```
+# Revisiting Control Structures.
+## If Else Statement.
+```
+const password = prompt("Your password");
+if(password === "Hello") {
+    console.log("Hello works");
+}else if(password === "hello") {
+    console.log("hello works");
+}else {
+    console.log("Access not granted");
+}
+```
+## For loop.
+> If we want to iterate over an array.
+```
+const hobbies = ["Sports", "Cooking"];
+for(const hobby of hobbies) {
+    console.log(hobby);
+}
+Output: 
+Sports
+Cooking.
 ```
